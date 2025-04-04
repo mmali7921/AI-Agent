@@ -18,5 +18,5 @@ agent1=Agent(
     model=OpenAIChat(id="gpt-4")
 )    
  
-agent1.print_response("Write 2 sentence Love relationship between chai and samoosa")
+agent.print_response("Write 2 sentence Love relationship between chai and samoosa")
 # Print the response
