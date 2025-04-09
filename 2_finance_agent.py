@@ -16,6 +16,7 @@ agent = Agent(
     tools=[YFinanceTools(stock_price=True,analyst_recommendations=True,stock_fundamentals=True)],
     show_tool_calls=True,
     markdown=True,
+    debug_mode=True,
     instructions=["use tables to display data"]
 )
 
